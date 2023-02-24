@@ -42,7 +42,8 @@ export default function Servicos() {
             <li onClick={()=>{displayServTab('serv_vidro')}}>Vidros</li>
             <li onClick={()=>{displayServTab('serv_box')}}>Box Banheiro</li>
             <li onClick={()=>{displayServTab('serv_persiana')}}>Persianas</li>
-            <li onClick={()=>{displayServTab('serv_tela')}}>Telas Contra Mosquitos</li>            
+            <li onClick={()=>{displayServTab('serv_tela')}}>Telas Contra Mosquitos?</li>
+            <li onClick={()=>{displayServTab('serv_corrimao')}}>Corrimões</li>               
           </ul>
           </a>
 
@@ -123,9 +124,13 @@ export default function Servicos() {
                   </picture>
 
                   <picture>
-                    <img src="/galeria1/pic1.png" alt=""/>
+                    <img src="/galeria1/pic1.png" alt="vidro"/>
                   </picture>
 
+
+                  <picture>
+                    <img src="/serv/vidro1.jpeg" alt="vidro"/>
+                  </picture>
               </div>
             
             
@@ -176,6 +181,28 @@ export default function Servicos() {
 
                   <picture>
                     <img src="/serv/telamosquito.jpg" alt="tela contra mosquito"/>
+                  </picture>
+
+
+              </div>
+
+              </div>
+
+              <div className="serv_tab" id="serv_corrimao">
+              <h3>Corrimões</h3>
+              <p>Corrimões para a sua escada.</p>
+              <div className="wrap_serv_pic">
+
+                  <picture>
+                    <img src="/serv/corrimao1.jpeg" alt="corrimão"/>
+                  </picture>
+
+                  <picture>
+                    <img src="/serv/corrimao2.jpeg" alt="corrimão"/>
+                  </picture>
+
+                  <picture>
+                    <img src="/serv/corrimao3.jpeg" alt="corrimão"/>
                   </picture>
 
 
