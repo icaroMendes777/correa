@@ -42,7 +42,7 @@ export default function Servicos() {
             <li onClick={()=>{displayServTab('serv_vidro')}}>Vidros</li>
             <li onClick={()=>{displayServTab('serv_box')}}>Box Banheiro</li>
             <li onClick={()=>{displayServTab('serv_persiana')}}>Persianas</li>
-            <li onClick={()=>{displayServTab('serv_tela')}}>Telas Contra Mosquitos?</li>
+            <li onClick={()=>{displayServTab('serv_tela')}}>Telas Contra Mosquitos</li>
             <li onClick={()=>{displayServTab('serv_corrimao')}}>Corrimões</li>               
           </ul>
           </a>
